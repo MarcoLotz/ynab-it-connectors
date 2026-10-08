@@ -12,7 +12,7 @@
     "import",
     "converter"
   ],
-  "homepage": "https://ynabit.com",
+  "homepage": "https://www.ynabit.com",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MarcoLotz/ynabit-connectors.git"
