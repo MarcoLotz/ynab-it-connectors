@@ -1,0 +1,6 @@
+{
+  // Tests also get Node's APIs, to read the sample exports.
+  "extends": "../tsconfig.json",
+  "compilerOptions": { "lib": ["es2023"], "types": ["node"] },
+  "include": ["."]
+}

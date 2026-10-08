@@ -1,2 +1,3 @@
-# ynabit-connectors
-Logic that converts files from multiple providers into YNAB
+# ynabit connectors
+
+Neon · PostFinance · Revolut · Swisscard · Viseca · Wise · ZKB · camt · mt940

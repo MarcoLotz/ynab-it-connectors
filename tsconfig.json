@@ -1,0 +1,20 @@
+{
+  // Connectors only see the ECMAScript standard library: no DOM or Node APIs, so no network,
+  // storage or page access. They are pure functions from a file's text to transactions.
+  "compilerOptions": {
+    "target": "es2022",
+    "lib": ["es2022"],
+    "types": [],
+    "module": "nodenext",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "verbatimModuleSyntax": true,
+    "erasableSyntaxOnly": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
