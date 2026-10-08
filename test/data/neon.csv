@@ -1,0 +1,8 @@
+"Date";"Amount";"Original amount";"Original currency";"Exchange rate";"Description";"Subject";"Category";"Tags";"Wise";"Spaces"
+"2026-09-30";"-89.90";"";"";"";"Sunrise GmbH";"QR-Bill: REF: 210000000003139471430009017";"housing";"";"no";"no"
+"2026-09-25";"5200.00";"";"";"";"Example AG";"Lohn September";"income_salary";"";"no";"no"
+"2026-09-22";"-500.00";"";"";"";"Holidays";"";"finances";"";"no";"yes"
+"2026-09-18";"-154.20";"";"";"";"Example GmbH";"Invoice 4711";"shopping";"";"yes";"no"
+"2026-09-14";"-27.10";"-29.00";"EUR";"1.07011";"Trenitalia";;"transport";"";"no";"no"
+"2026-09-10";"59.90";"";"";"";"Zalando";;"income";"";"no";"no"
+"2026-09-03";"-12.50";"";"";"";"Migros";;"household";"";"no";"no"

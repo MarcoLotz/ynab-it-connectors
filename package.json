@@ -1,0 +1,45 @@
+{
+  "name": "ynabit-connectors",
+  "version": "0.1.0",
+  "description": "Open-source connectors that turn bank and credit card exports into YNAB import files, in the browser.",
+  "keywords": [
+    "ynab",
+    "budget",
+    "bank",
+    "csv",
+    "camt",
+    "mt940",
+    "import",
+    "converter"
+  ],
+  "homepage": "https://www.ynabit.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoLotz/ynabit-connectors.git"
+  },
+  "bugs": "https://github.com/MarcoLotz/ynabit-connectors/issues",
+  "funding": "https://github.com/sponsors/MarcoLotz",
+  "license": "Apache-2.0",
+  "author": "Marco Barbosa Gomes Lotz, Neucom Software Design",
+  "type": "module",
+  "exports": "./src/index.ts",
+  "files": [
+    "src",
+    "NOTICE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "check": "biome check && npm run typecheck && npm test",
+    "fix": "biome check --write",
+    "typecheck": "tsc -p . && tsc -p test",
+    "test": "node --test \"test/*.test.ts\""
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "@types/node": "24.19.1",
+    "typescript": "7.0.2"
+  }
+}
