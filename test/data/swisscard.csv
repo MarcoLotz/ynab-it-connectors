@@ -1,0 +1,8 @@
+Transaction date,Description,Merchant,Card number,Currency,Amount,Foreign Currency,Amount in foreign currency,Debit/Credit,Status,Merchant Category,Registered Category
+"30.09.2026","STEAMGAMES.COM, BELLEVUE","Steam","3776 60**** *1234","","","USD","19.99","Debit","Pending","","COMPUTER SOFTWARE STORES"
+"29.09.2026","MIGROS M ZÜRICH HB, ZÜRICH","Migros","5100 21** **** 5678","CHF","23.40","","","Debit","Pending","Groceries","GROCERY STORES, SUPERMARKETS"
+"28.09.2026","COOP-1234 ZH BAHNHOFSTR., ZÜRICH","Coop","3776 60**** *1234","CHF","17.55","","","Debit","Posted","Groceries","DEPARTMENT STORES"
+"24.09.2026","BOOKING.COM, AMSTERDAM","Booking.com","3776 60**** *1234","CHF","1234.50","EUR","1318.20","Debit","Posted","","HOTELS, MOTELS, RESORTS"
+"22.09.2026","ZEUGHAUSKELLER, ZÜRICH","Zeughauskeller","5100 21** **** 5678","CHF","86.50","","","Debit","Posted","Food and Drink","EATING PLACES, RESTAURANTS"
+"15.09.2026","DIGITEC GALAXUS AG, ZÜRICH","Digitec Galaxus","3776 60**** *1234","CHF","-149.00","","","Credit","Posted","Family and Household","ELECTRONICS STORES"
+"10.09.2026","IHRE ZAHLUNG – BESTEN DANK","","3776 60**** *1234","CHF","-1873.25","","","Credit","Posted","Payment",""

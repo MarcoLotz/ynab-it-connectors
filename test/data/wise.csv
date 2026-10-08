@@ -1,0 +1,10 @@
+ID,Status,Direction,"Created on","Finished on","Source fee amount","Source fee currency","Target fee amount","Target fee currency","Source name","Source amount (after fees)","Source currency","Target name","Target amount (after fees)","Target currency","Exchange rate",Reference,Batch,"Created by",Category,Note
+"CARD_TRANSACTION-3612345688",COMPLETED,OUT,"2026-09-28 12:15:03","2026-09-28 12:15:03",0.06,CHF,,,"Jane Muster",12.25,CHF,"Café de Flore",13.10,EUR,1.0693900000000000,,,"Jane Muster","Eating out",
+"BALANCE_CASHBACK-40123456",COMPLETED,IN,"2026-09-26 23:58:12","2026-09-27 00:00:41",,,,,TransferWise,0.42,EUR,,0.42,EUR,1,"BALANCE CASHBACK",,,Rewards,
+"CARD_TRANSACTION-3612345671",REFUNDED,IN,"2026-09-24 09:31:57","2026-09-24 09:31:57",,,,,"Digitec Galaxus",49.90,CHF,"Jane Muster",49.90,CHF,1,,,"Jane Muster",Shopping,
+"CARD_TRANSACTION-3612345660",REFUNDED,OUT,"2026-09-21 16:15:28","2026-09-21 16:15:28",,,,,"Jane Muster",1.00,CHF,"Microsoft Store",1.00,CHF,1,,,"Jane Muster",General,
+"CARD_TRANSACTION-3612345655",COMPLETED,OUT,"2026-09-19 20:05:44","2026-09-19 20:05:44",0.00,CHF,,,"Jane Muster",49.90,CHF,"Digitec Galaxus",49.90,CHF,1.0000000000000000,,,"Jane Muster",Shopping,
+"CARD_TRANSACTION-3612345649",CANCELLED,OUT,"2026-09-17 07:48:02","2026-09-17 07:48:02",,,,,"Jane Muster",23.80,CHF,"SBB CFF FFS",23.80,CHF,1,,,"Jane Muster",Transport,
+"BALANCE_TRANSACTION-3612345630",COMPLETED,NEUTRAL,"2026-09-12 08:10:00","2026-09-12 08:10:00",1.71,CHF,,,"Jane Muster",298.29,CHF,"Jane Muster",319.00,EUR,1.0694300000000000,,,"Jane Muster",General,
+"DIRECT_DEBIT_TRANSACTION-25012345",COMPLETED,OUT,"2026-09-10 22:15:33","2026-09-10 22:15:34",,,,,,39.90,EUR,"Example GmbH",39.90,EUR,1.00000000,EXG-MANDATE-000123,,"Jane Muster",General,
+TRANSFER-2212345678,COMPLETED,IN,"2026-09-01 07:02:15","2026-09-02 09:14:48",0.00,CHF,,,"Jane Muster",1000.0,CHF,"Jane Muster",1000.0,CHF,1.0,,,"Jane Muster","Money added",
