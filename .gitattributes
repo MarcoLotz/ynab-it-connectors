@@ -1,0 +1,3 @@
+* text=auto eol=lf
+# Sample exports keep their exact bytes: CRLF, BOM and encoding as the bank wrote them.
+test/data/* -text
