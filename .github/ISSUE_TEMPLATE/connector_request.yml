@@ -1,0 +1,64 @@
+name: Connector request
+description: Ask for your bank's or card's export to be supported.
+title: "Connector: "
+labels: [connector]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        No coding needed: describe the export and paste a few lines of it, and a contributor can write the connector.
+        Does your bank offer camt.053 (ISO 20022 XML) or MT940? Those already work.
+        **This issue is public.** Replace every personal detail before you paste anything.
+  - type: input
+    id: bank
+    attributes:
+      label: Bank or card
+      placeholder: e.g. UBS, Raiffeisen, N26
+    validations:
+      required: true
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      placeholder: e.g. Switzerland
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: Where is the export?
+      description: The steps to download the file in the e-banking or app, in English if you can.
+      placeholder: |
+        1. Log in to e-banking on the web and set the language to English.
+        2. Accounts › your account › Transactions › Export › CSV.
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: File type
+      options:
+        - CSV
+        - XML
+        - Text (.sta, .txt)
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Sample lines
+      description: >
+        Open the file in a text editor, not a spreadsheet app, and copy the header line and 2 or 3
+        transactions. Replace names, account and card numbers, addresses and references with fake
+        data such as Jane Muster or CH00 0000 0000 0000 0000 0, and keep everything else as it is.
+      render: text
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Personal data
+      options:
+        - label: I replaced all personal data in the sample with fake data.
+          required: true
