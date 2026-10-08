@@ -51,7 +51,8 @@ export function csv<const C extends string>(spec: CsvConnector<C>): Connector {
   return {
     ...info,
     detect: (text) =>
-      findHeader(parseCsv(text.split("\n", 50).join("\n"), delimiter)) < 0 ? 0 : columns.length,
+      // The header and any account details above it fit in the first 64 KB.
+      findHeader(parseCsv(text.slice(0, 65_536), delimiter)) < 0 ? 0 : columns.length,
     convert(text) {
       const lines = parseCsv(text, delimiter);
       const start = findHeader(lines);

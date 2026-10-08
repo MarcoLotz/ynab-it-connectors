@@ -13,7 +13,7 @@ In scope:
 - A connector that sends data anywhere, reads anything besides the text it's given, or runs code.
 - A file crafted to make a parser hang or exhaust memory.
 
-For problems with ynabit.com itself, write to contact@marcolotz.com.
+If that form isn't available, or for problems with ynabit.com itself, write to contact@marcolotz.com.
 
 ## Security model
 

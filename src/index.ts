@@ -44,7 +44,7 @@ export function convert(text: string, id: ConnectorId): Transaction[] {
   const transactions = connectors[id].convert(text);
   for (const t of transactions) {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(t.date) || !Number.isSafeInteger(t.amount)) {
-      throw new Error(`Bug in the ${connectors[id].name} connector: ${JSON.stringify(t)}`);
+      throw new Error(`Bug in the ${connectors[id].name} connector: invalid date or amount`);
     }
   }
   return transactions;
