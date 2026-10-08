@@ -1,0 +1,32 @@
+name: Bug report
+description: A file isn't recognised, or YNAB gets wrong dates, payees or amounts.
+labels: [bug]
+body:
+  - type: input
+    id: connector
+    attributes:
+      label: Connector
+      placeholder: e.g. ZKB
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened?
+      description: The error message, or the rows that came out wrong.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Sample lines
+      description: >
+        The header line and the lines that go wrong, copied from the file in a text editor. This
+        issue is public: replace every personal detail with fake data and keep everything else.
+      render: text

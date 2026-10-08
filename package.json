@@ -20,7 +20,7 @@
   "bugs": "https://github.com/MarcoLotz/ynabit-connectors/issues",
   "funding": "https://github.com/sponsors/MarcoLotz",
   "license": "Apache-2.0",
-  "author": "Neucom Software Design (Marco Barbosa Gomes Lotz)",
+  "author": "Marco Barbosa Gomes Lotz, Neucom Software Design",
   "type": "module",
   "exports": "./src/index.ts",
   "files": [
