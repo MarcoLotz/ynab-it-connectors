@@ -13,7 +13,7 @@ const TOKEN = new RegExp(
   [
     /<!--[\s\S]*?-->/, // comment
     /<\?[\s\S]*?\?>/, // processing instruction, such as <?xml version="1.0"?>
-    /<!DOCTYPE[^[>]*(?:\[[^\]]*\])?\s*>/,
+    /<!DOCTYPE[^[>]*(?:\[[^\]]*\]\s*)?>/,
     /<!\[CDATA\[([\s\S]*?)\]\]>/,
     /<\/([^\s>]+)\s*>/, // end tag
     /<([^\s/>]+)(?:\s+[^\s=/>]+\s*=\s*(?:"[^"]*"|'[^']*'))*\s*(\/?)>/, // start tag, attributes skipped

@@ -112,7 +112,7 @@ Connectors run in the browser of someone converting their bank statements, so:
 
 ## Development
 
-You need Node.js 22.18 or newer, which runs the TypeScript tests natively. There is no build step.
+You need Node.js 24 or newer, which runs the TypeScript tests natively. There is no build step.
 
 ```sh
 npm ci

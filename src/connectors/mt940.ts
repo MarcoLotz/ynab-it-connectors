@@ -24,7 +24,7 @@ export default {
     );
     if (accounts.size > 1) {
       throw new Error(
-        `This file has statements of ${accounts.size} accounts (${[...accounts].join(", ")}). ` +
+        `This file has statements of ${accounts.size} accounts. ` +
           "Export one account per file and import each into its own YNAB account.",
       );
     }

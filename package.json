@@ -29,7 +29,7 @@
   ],
   "sideEffects": false,
   "engines": {
-    "node": ">=22.18"
+    "node": ">=24"
   },
   "scripts": {
     "check": "biome check && npm run typecheck && npm test",

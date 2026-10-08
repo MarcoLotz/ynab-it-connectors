@@ -94,6 +94,7 @@ test("decode", () => {
   assert.equal(decode(utf8), "Zürich");
   assert.equal(decode(new Uint8Array([0xef, 0xbb, 0xbf, ...utf8])), "Zürich"); // BOM dropped
   assert.equal(decode(new Uint8Array([0x5a, 0xfc, 0x72, 0xe9])), "Züré"); // Windows-1252
+  assert.equal(decode(new Uint8Array([0x80, 0x96])), "€–"); // Windows-1252, not Latin-1
   assert.equal(decode(new Uint8Array([0xff, 0xfe, 0x5a, 0x00, 0xfc, 0x00])), "Zü"); // UTF-16
 });
 
