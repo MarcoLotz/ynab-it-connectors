@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/MarcoLotz/ynabit-connectors/actions/workflows/ci.yml/badge.svg)](https://github.com/MarcoLotz/ynabit-connectors/actions/workflows/ci.yml)
 
-Connectors turn bank and credit card exports into files you can import into [YNAB](https://www.ynab.com). They power [ynabit.com](https://ynabit.com), a free converter that runs entirely in your browser. Each connector is a pure function from a file's text to transactions: it has no access to the network, storage or the page, so your statements never leave your device.
+Connectors turn bank and credit card exports into files you can import into [YNAB](https://www.ynab.com). They power [ynabit.com](https://www.ynabit.com), a free converter that runs entirely in your browser. Each connector is a pure function from a file's text to transactions: it has no access to the network, storage or the page, so your statements never leave your device.
 
 ## Supported banks and formats
 
