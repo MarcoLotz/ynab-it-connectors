@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:Document xmlns:ns2="urn:iso:std:iso:20022:tech:xsd:camt.054.001.04">
+    <ns2:BkToCstmrDbtCdtNtfctn>
+        <ns2:GrpHdr>
+            <ns2:MsgId>N20260930211503000412</ns2:MsgId>
+            <ns2:CreDtTm>2026-09-30T21:15:03.000+02:00</ns2:CreDtTm>
+            <ns2:MsgPgntn>
+                <ns2:PgNb>1</ns2:PgNb>
+                <ns2:LastPgInd>true</ns2:LastPgInd>
+            </ns2:MsgPgntn>
+        </ns2:GrpHdr>
+        <ns2:Ntfctn>
+            <ns2:Id>N20260930211503000412-1</ns2:Id>
+            <ns2:ElctrncSeqNb>412</ns2:ElctrncSeqNb>
+            <ns2:CreDtTm>2026-09-30T21:15:03.000+02:00</ns2:CreDtTm>
+            <ns2:Acct>
+                <ns2:Id>
+                    <ns2:IBAN>DE00000000000000000000</ns2:IBAN>
+                </ns2:Id>
+                <ns2:Ccy>EUR</ns2:Ccy>
+                <ns2:Ownr>
+                    <ns2:Nm>Jane Muster</ns2:Nm>
+                </ns2:Ownr>
+                <ns2:Svcr>
+                    <ns2:FinInstnId>
+                        <ns2:BICFI>EXMPDEFFXXX</ns2:BICFI>
+                    </ns2:FinInstnId>
+                </ns2:Svcr>
+            </ns2:Acct>
+            <ns2:Ntry>
+                <ns2:Amt Ccy="EUR">86.00</ns2:Amt>
+                <ns2:CdtDbtInd>DBIT</ns2:CdtDbtInd>
+                <ns2:Sts>BOOK</ns2:Sts>
+                <ns2:BookgDt>
+                    <ns2:Dt>2026-09-29+02:00</ns2:Dt>
+                </ns2:BookgDt>
+                <ns2:ValDt>
+                    <ns2:Dt>2026-09-29+02:00</ns2:Dt>
+                </ns2:ValDt>
+                <ns2:AcctSvcrRef>2026092900481153</ns2:AcctSvcrRef>
+                <ns2:BkTxCd>
+                    <ns2:Domn>
+                        <ns2:Cd>PMNT</ns2:Cd>
+                        <ns2:Fmly>
+                            <ns2:Cd>RDDT</ns2:Cd>
+                            <ns2:SubFmlyCd>ESDD</ns2:SubFmlyCd>
+                        </ns2:Fmly>
+                    </ns2:Domn>
+                </ns2:BkTxCd>
+                <ns2:NtryDtls>
+                    <ns2:TxDtls>
+                        <ns2:Refs>
+                            <ns2:EndToEndId>ABS-2026-10-000000000</ns2:EndToEndId>
+                            <ns2:MndtId>MANDAT-000000000</ns2:MndtId>
+                        </ns2:Refs>
+                        <ns2:Amt Ccy="EUR">86.00</ns2:Amt>
+                        <ns2:CdtDbtInd>DBIT</ns2:CdtDbtInd>
+                        <ns2:RltdPties>
+                            <ns2:Dbtr>
+                                <ns2:Nm>Jane Muster</ns2:Nm>
+                            </ns2:Dbtr>
+                            <ns2:DbtrAcct>
+                                <ns2:Id>
+                                    <ns2:IBAN>DE00000000000000000000</ns2:IBAN>
+                                </ns2:Id>
+                            </ns2:DbtrAcct>
+                            <ns2:Cdtr>
+                                <ns2:Nm>Example Strom GmbH &amp; Co. KG</ns2:Nm>
+                                <ns2:Id>
+                                    <ns2:PrvtId>
+                                        <ns2:Othr>
+                                            <ns2:Id>DE00ZZZ00000000000</ns2:Id>
+                                            <ns2:SchmeNm>
+                                                <ns2:Prtry>SEPA</ns2:Prtry>
+                                            </ns2:SchmeNm>
+                                        </ns2:Othr>
+                                    </ns2:PrvtId>
+                                </ns2:Id>
+                            </ns2:Cdtr>
+                            <ns2:CdtrAcct>
+                                <ns2:Id>
+                                    <ns2:IBAN>DE00000000000000000000</ns2:IBAN>
+                                </ns2:Id>
+                            </ns2:CdtrAcct>
+                        </ns2:RltdPties>
+                        <ns2:RmtInf>
+                            <ns2:Ustrd>Abschlag Oktober 2026</ns2:Ustrd>
+                            <ns2:Ustrd>Vertragskonto 000000000</ns2:Ustrd>
+                        </ns2:RmtInf>
+                    </ns2:TxDtls>
+                </ns2:NtryDtls>
+                <ns2:AddtlNtryInf>SEPA-Basislastschrift</ns2:AddtlNtryInf>
+            </ns2:Ntry>
+            <ns2:Ntry>
+                <ns2:Amt Ccy="EUR">250.00</ns2:Amt>
+                <ns2:CdtDbtInd>CRDT</ns2:CdtDbtInd>
+                <ns2:Sts>BOOK</ns2:Sts>
+                <ns2:BookgDt>
+                    <ns2:Dt>2026-09-30+02:00</ns2:Dt>
+                </ns2:BookgDt>
+                <ns2:ValDt>
+                    <ns2:Dt>2026-09-30+02:00</ns2:Dt>
+                </ns2:ValDt>
+                <ns2:AcctSvcrRef>2026093000512207</ns2:AcctSvcrRef>
+                <ns2:BkTxCd>
+                    <ns2:Domn>
+                        <ns2:Cd>PMNT</ns2:Cd>
+                        <ns2:Fmly>
+                            <ns2:Cd>RCDT</ns2:Cd>
+                            <ns2:SubFmlyCd>ESCT</ns2:SubFmlyCd>
+                        </ns2:Fmly>
+                    </ns2:Domn>
+                </ns2:BkTxCd>
+                <ns2:NtryDtls>
+                    <ns2:TxDtls>
+                        <ns2:Refs>
+                            <ns2:EndToEndId>NOTPROVIDED</ns2:EndToEndId>
+                        </ns2:Refs>
+                        <ns2:Amt Ccy="EUR">250.00</ns2:Amt>
+                        <ns2:CdtDbtInd>CRDT</ns2:CdtDbtInd>
+                        <ns2:RltdPties>
+                            <ns2:Dbtr>
+                                <ns2:Nm>Max Muster</ns2:Nm>
+                            </ns2:Dbtr>
+                            <ns2:DbtrAcct>
+                                <ns2:Id>
+                                    <ns2:IBAN>DE00000000000000000000</ns2:IBAN>
+                                </ns2:Id>
+                            </ns2:DbtrAcct>
+                            <ns2:Cdtr>
+                                <ns2:Nm>Jane Muster</ns2:Nm>
+                            </ns2:Cdtr>
+                        </ns2:RltdPties>
+                        <ns2:RmtInf>
+                            <ns2:Ustrd>Miete Garage Oktober</ns2:Ustrd>
+                        </ns2:RmtInf>
+                    </ns2:TxDtls>
+                </ns2:NtryDtls>
+                <ns2:AddtlNtryInf>SEPA-Gutschrift</ns2:AddtlNtryInf>
+            </ns2:Ntry>
+            <ns2:Ntry>
+                <ns2:Amt Ccy="EUR">42.17</ns2:Amt>
+                <ns2:CdtDbtInd>DBIT</ns2:CdtDbtInd>
+                <ns2:Sts>BOOK</ns2:Sts>
+                <ns2:BookgDt>
+                    <ns2:Dt>2026-09-30+02:00</ns2:Dt>
+                </ns2:BookgDt>
+                <ns2:ValDt>
+                    <ns2:Dt>2026-09-28+02:00</ns2:Dt>
+                </ns2:ValDt>
+                <ns2:AcctSvcrRef>2026093000517764</ns2:AcctSvcrRef>
+                <ns2:BkTxCd>
+                    <ns2:Domn>
+                        <ns2:Cd>PMNT</ns2:Cd>
+                        <ns2:Fmly>
+                            <ns2:Cd>CCRD</ns2:Cd>
+                            <ns2:SubFmlyCd>POSD</ns2:SubFmlyCd>
+                        </ns2:Fmly>
+                    </ns2:Domn>
+                </ns2:BkTxCd>
+                <ns2:NtryDtls>
+                    <ns2:TxDtls>
+                        <ns2:Refs>
+                            <ns2:EndToEndId>NOTPROVIDED</ns2:EndToEndId>
+                        </ns2:Refs>
+                        <ns2:Amt Ccy="EUR">42.17</ns2:Amt>
+                        <ns2:CdtDbtInd>DBIT</ns2:CdtDbtInd>
+                        <ns2:RltdPties>
+                            <ns2:Cdtr>
+                                <ns2:Nm>REWE Markt GmbH</ns2:Nm>
+                            </ns2:Cdtr>
+                        </ns2:RltdPties>
+                    </ns2:TxDtls>
+                </ns2:NtryDtls>
+                <ns2:AddtlNtryInf>Kartenzahlung girocard</ns2:AddtlNtryInf>
+            </ns2:Ntry>
+        </ns2:Ntfctn>
+    </ns2:BkToCstmrDbtCdtNtfctn>
+</ns2:Document>
