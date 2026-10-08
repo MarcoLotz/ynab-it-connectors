@@ -69,7 +69,10 @@ export function csv<const C extends string>(spec: CsvConnector<C>): Connector {
   };
 }
 
-/** Splits CSV text into lines of cells. Follows RFC 4180, but as leniently as Python's csv module. */
+/**
+ * Splits CSV text into lines of cells. Follows RFC 4180, but leniently: a quote inside an
+ * unquoted cell, or text after a closing quote, is kept as is.
+ */
 export function parseCsv(text: string, delimiter = ","): string[][] {
   const lines: string[][] = [];
   let cells: string[] = [];
