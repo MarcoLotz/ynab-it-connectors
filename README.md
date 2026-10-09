@@ -57,6 +57,6 @@ ynabit is free. If it saves you time, [sponsor its development](https://github.c
 
 [AGPL-3.0](LICENSE). Copyright 2026 Marco Barbosa Gomes Lotz (Neucom Software Design).
 
-I chose AGPL-3.0 because I want you to be able to run these connectors locally on your own machine, without using the website, if you wish to. I don't want companies making use of the source code for profit. AGPL-3.0 doesn't forbid commercial use, but anyone who distributes a modified version, or runs one as a service for others, must publish its complete source code under the same license.
+I chose AGPL-3.0 because I want you to be able to run these connectors locally on your own machine, without using the website, if you wish to, but I don't want companies making use of the source code for profit. I also didn't want a license that scares people away from contributing, so I picked a standard open source license that contributors already know. AGPL-3.0 doesn't forbid commercial use, but anyone who distributes a modified version, or runs one as a service for others, must publish its complete source code under the same license, so nobody can turn this code into a closed product.
 
 Not affiliated with or endorsed by YNAB (You Need A Budget LLC).
