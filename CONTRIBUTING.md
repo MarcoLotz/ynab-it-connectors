@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping! Most contributions are new connectors, one per bank, card or file format. Bugs and ideas go in [issues](https://github.com/MarcoLotz/ynabit-connectors/issues). By taking part you agree to the [code of conduct](CODE_OF_CONDUCT.md).
+Thanks for helping! Most contributions are new connectors, one per bank, card or file format. Bugs and ideas go in [issues](https://github.com/MarcoLotz/ynabit-connectors/issues). By taking part you agree to the [code of conduct](CODE_OF_CONDUCT.md), and by contributing you agree to the [license of contributions](#license-of-contributions).
 
 ## Adding a connector
 
@@ -109,6 +109,15 @@ Connectors run in the browser of someone converting their bank statements, so:
 - **Pure functions only.** A connector gets a file's text and returns transactions: no network, DOM, Node APIs, storage, or code created at runtime. `tsconfig.json` checks `src/` against the ECMAScript library alone and Biome rejects `globalThis`, `eval` and `Function` there. Reviewers reject anything that gets around either.
 - **Linear time.** A crafted file must not make a parser hang, so avoid regular expressions that can backtrack catastrophically.
 - **No runtime dependencies.** Shared parsing goes in `src/core.ts`; bank-specific logic stays in its connector.
+
+## License of contributions
+
+The connectors are licensed under [AGPL-3.0](LICENSE). By opening a pull request you agree that:
+
+- your contribution is licensed under AGPL-3.0, like the rest of the project, and
+- Marco Barbosa Gomes Lotz (Neucom Software Design) may also use, modify, sublicense and distribute it under other terms, for example in ynabit.com, whose own code is closed source. This permission is perpetual, worldwide, non-exclusive, royalty-free and irrevocable.
+
+You keep the copyright to your work. Only submit code and sample exports that you made yourself or have the right to share.
 
 ## Development
 
