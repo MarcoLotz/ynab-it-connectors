@@ -1,6 +1,6 @@
 {
   "name": "ynabit-connectors",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Open-source connectors that turn bank and credit card exports into YNAB import files, in the browser.",
   "keywords": [
     "ynab",
