@@ -15,7 +15,7 @@ const info = {
   countries: ["CH"],
   howToExport: [
     "Log in to e-finance on the web.",
-    "Open the transaction list of your CHF account, not of a credit card.",
+    "Open Transactions (Bewegungen, Mouvements, Movimenti) of your CHF account, not of a credit card.",
     "Pick the period and scroll to the end so every transaction is loaded.",
     "Click Export › CSV.",
   ],

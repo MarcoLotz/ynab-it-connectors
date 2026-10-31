@@ -36,6 +36,7 @@ node --test test/zkb.test.ts    # one test file
 - Samples use fake personal data (Jane Muster, Example AG, CH00 0000 0000 0000 0000 0, XXXX XXXX XXXX 1234). Never let a tool rewrite their line endings or encoding.
 - A new connector also needs its sample, its test, an entry in `src/index.ts` and its name in `README.md` (see `CONTRIBUTING.md`).
 - Comments only where they explain why.
+- Versions follow semver: a new connector is a minor release; a fix is a patch, including a change to the output file that fixes how YNAB imports it. Bump `package.json` and `package-lock.json` (`npm version patch --no-git-tag-version`) in the pull request that makes the change; Marco pushes the `v*` tag.
 
 ## Working Style
 
