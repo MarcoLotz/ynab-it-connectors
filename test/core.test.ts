@@ -84,8 +84,8 @@ test("toYnabCsv", () => {
   ]);
   assert.equal(
     csv,
-    'Date,Payee,Memo,Amount\r\n2026-09-30,Migros Zürich,"Say ""hi"", ok",-12.50\r\n' +
-      "2026-09-29,Refund,,0.00\r\n",
+    'Date,Payee,Memo,Outflow,Inflow\r\n2026-09-30,Migros Zürich,"Say ""hi"", ok",12.50,\r\n' +
+      "2026-09-29,Refund,,,0.00\r\n",
   );
 });
 

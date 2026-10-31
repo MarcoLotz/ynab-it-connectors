@@ -1,0 +1,19 @@
+﻿Data dal:;="01.09.2026"
+Data al:;="30.09.2026"
+Tipo di registrazione:;="Tutti"
+Conto:;="CH0000000000000000000"
+Valuta:;="CHF"
+
+Data;Tipo di movimento;Testo di avviso;Accredito in CHF;Addebito in CHF;Tag;Categoria
+
+30.09.2026;Contabilizzazione;"PREIS FÜR BANKPAKET SMART 08.2026";;-5;;Finanze // Commissioni
+29.09.2026;Contabilizzazione;"KAUF/DIENSTLEISTUNG VOM 27.09.2026 KARTEN NR. XXXX1234 MIGROS  ZÜRICH SCHWEIZ";;-63.95;;Altre uscite
+28.09.2026;Contabilizzazione;"TWINT KAUF/DIENSTLEISTUNG VOM 28.09.2026 COOP PRONTO ZÜRICH (CH)";;-12.5;;Altre uscite
+25.09.2026;Contabilizzazione;"GUTSCHRIFT AUFTRAGGEBER: EXAMPLE AG MUSTERSTRASSE 1 8000 ZÜRICH MITTEILUNGEN: LOHN SEPTEMBER 2026 REFERENZEN: 260925CH0EXMPL01";4500;;;Entrate // Altre entrate
+21.09.2026;Contabilizzazione;"GUTSCHRIFT POSTFINANCE CARD VOM 19.09.2026 KARTEN NR. XXXX1234 DIGITEC GALAXUS AG ZÜRICH (CH)";59.9;;;
+15.09.2026;Contabilizzazione;"TWINT GELD EMPFANGEN VOM 15.09.2026 VON TELEFON-NR. +41790000000 JANE MUSTER MITTEILUNGEN: PIZZA";20;;;Entrate // Altre entrate
+02.09.2026;Contabilizzazione;"AUFTRAG CH-DD-BASISLASTSCHRIFT ZAHLUNGSEMPFÄNGER: EXAMPLE VERSICHERUNG AG MITTEILUNGEN: PRÄMIE 09.2026";;-312.45;;Finanze // Assicurazioni
+01.09.2026;Contabilizzazione;"LASTSCHRIFT DAUERAUFTRAG: CH0000000000000000000 IMMO EXAMPLE AG SENDER REFERENZ: MIETE 09.2026";;-1850;;Altre uscite
+
+Disclaimer:
+Il contenuto del documento è stato generato sulla base di filtri impostati della clientela. PostFinance non è responsabile del contenuto e della sua completezza.
