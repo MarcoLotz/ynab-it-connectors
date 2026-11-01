@@ -6,11 +6,11 @@ Thanks for helping! Most contributions are new connectors, one per bank, card or
 
 A connector is one file in [`src/connectors/`](src/connectors), with a sample export and a test next to it. Its id is the file name: lowercase letters and digits, such as `mybank`. CI fails until all three files exist.
 
-| File | What it is |
-| --- | --- |
-| `src/connectors/mybank.ts` | The connector, including the export steps shown on the website |
-| `test/data/mybank.csv` | A sample export that looks exactly like the real one, with fake data |
-| `test/mybank.test.ts` | One test: the rows YNAB should receive from the sample |
+| File                       | What it is                                                           |
+| -------------------------- | -------------------------------------------------------------------- |
+| `src/connectors/mybank.ts` | The connector, including the export steps shown on the website       |
+| `test/data/mybank.csv`     | A sample export that looks exactly like the real one, with fake data |
+| `test/mybank.test.ts`      | One test: the rows YNAB should receive from the sample               |
 
 ### 1. The connector
 

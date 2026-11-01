@@ -1,7 +1,5 @@
 ## What does this change?
 
-
-
 ## Adding or changing a connector?
 
 - [ ] `src/connectors/<id>.ts`, `test/data/<id>.<ext>` and `test/<id>.test.ts` are included, and the connector is registered in `src/index.ts`
