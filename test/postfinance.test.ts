@@ -70,3 +70,24 @@ test("postfinance", () => {
     ],
   ]);
 });
+
+test("postfinance-de", () => {
+  // German UI: same layout as the English export, with German headers (Datum, Bewegungstyp,
+  // Avisierungstext, Gutschrift in CHF, Lastschrift in CHF, Label, Kategorie), preamble labels
+  // and categories. Same transactions, so the same rows as the English sample.
+  assert.deepEqual(ynabRows("postfinance-de"), ynabRows("postfinance"));
+});
+
+test("postfinance-fr", () => {
+  // French UI: Date, Type de transaction, Texte de notification, Crédit en CHF, Débit en CHF,
+  // Label, Catégorie. This variant pads every preamble, blank and disclaimer line with ";" to
+  // seven cells, leaves the preamble values and notification texts unquoted. The padded blank
+  // lines and the disclaimer are skipped like in the English export. Same rows as the English one.
+  assert.deepEqual(ynabRows("postfinance-fr"), ynabRows("postfinance"));
+});
+
+test("postfinance-it", () => {
+  // Italian UI: Data, Tipo di movimento, Testo di avviso, Accredito in CHF, Addebito in CHF, Tag,
+  // Categoria. Same layout and transactions as the English sample, so the same rows.
+  assert.deepEqual(ynabRows("postfinance-it"), ynabRows("postfinance"));
+});

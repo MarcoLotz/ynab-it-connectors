@@ -170,14 +170,21 @@ export function formatAmount(milliunits: number): string {
   return `${sign}${Math.floor(abs / 1000)}.${fraction.endsWith("0") ? fraction.slice(0, 2) : fraction}`;
 }
 
-/** The YNAB import file: a CSV with the columns Date, Payee, Memo and Amount. */
+/**
+ * The YNAB import file: a CSV with the columns Date, Payee, Memo, Outflow and Inflow. These are
+ * the names YNAB's import maps by itself; a single signed Amount column has to be mapped by hand.
+ */
 export function toYnabCsv(transactions: readonly Transaction[]): string {
   const clean = (text: string) => text.replace(/\s+/g, " ").trim();
   const quote = (cell: string) =>
     /[",\r\n]/.test(cell) ? `"${cell.replaceAll('"', '""')}"` : cell;
   const lines = [
-    ["Date", "Payee", "Memo", "Amount"],
-    ...transactions.map((t) => [t.date, clean(t.payee), clean(t.memo), formatAmount(t.amount)]),
+    ["Date", "Payee", "Memo", "Outflow", "Inflow"],
+    ...transactions.map((t) => {
+      const [outflow, inflow] =
+        t.amount < 0 ? [formatAmount(-t.amount), ""] : ["", formatAmount(t.amount)];
+      return [t.date, clean(t.payee), clean(t.memo), outflow, inflow];
+    }),
   ];
   return lines.map((cells) => `${cells.map(quote).join(",")}\r\n`).join("");
 }

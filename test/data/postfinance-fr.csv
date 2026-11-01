@@ -1,0 +1,19 @@
+﻿Date de début:;01.09.2026;;;;;
+Date de fin:;30.09.2026;;;;;
+Catégorie:;Tous;;;;;
+Compte:;CH0000000000000000000;;;;;
+Monnaie:;CHF;;;;;
+;;;;;;
+Date;Type de transaction;Texte de notification;Crédit en CHF;Débit en CHF;Label;Catégorie
+;;;;;;
+30.09.2026;Enregistrement comptable;PREIS FÜR BANKPAKET SMART 08.2026;;-5;;Finances // Frais
+29.09.2026;Enregistrement comptable;KAUF/DIENSTLEISTUNG VOM 27.09.2026 KARTEN NR. XXXX1234 MIGROS  ZÜRICH SCHWEIZ;;-63.95;;Dépenses autres
+28.09.2026;Enregistrement comptable;TWINT KAUF/DIENSTLEISTUNG VOM 28.09.2026 COOP PRONTO ZÜRICH (CH);;-12.5;;Dépenses autres
+25.09.2026;Enregistrement comptable;GUTSCHRIFT AUFTRAGGEBER: EXAMPLE AG MUSTERSTRASSE 1 8000 ZÜRICH MITTEILUNGEN: LOHN SEPTEMBER 2026 REFERENZEN: 260925CH0EXMPL01;4500;;;Revenus // Autres revenus
+21.09.2026;Enregistrement comptable;GUTSCHRIFT POSTFINANCE CARD VOM 19.09.2026 KARTEN NR. XXXX1234 DIGITEC GALAXUS AG ZÜRICH (CH);59.9;;;
+15.09.2026;Enregistrement comptable;TWINT GELD EMPFANGEN VOM 15.09.2026 VON TELEFON-NR. +41790000000 JANE MUSTER MITTEILUNGEN: PIZZA;20;;;Revenus // Autres revenus
+02.09.2026;Enregistrement comptable;AUFTRAG CH-DD-BASISLASTSCHRIFT ZAHLUNGSEMPFÄNGER: EXAMPLE VERSICHERUNG AG MITTEILUNGEN: PRÄMIE 09.2026;;-312.45;;Finances // Assurances
+01.09.2026;Enregistrement comptable;LASTSCHRIFT DAUERAUFTRAG: CH0000000000000000000 IMMO EXAMPLE AG SENDER REFERENZ: MIETE 09.2026;;-1850;;Dépenses autres
+;;;;;;
+Disclaimer:;;;;;;
+Le contenu du document a été généré à partir des paramètres de filtrage des clientes et des clients. PostFinance n’est pas responsable du contenu et de son exhaustivité.;;;;;;

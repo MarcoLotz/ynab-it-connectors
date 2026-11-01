@@ -12,14 +12,18 @@ export function sample(name: string): string {
 }
 
 /**
- * Converts test/data/<name>.* the way the website does and returns the rows YNAB will import.
- * Also checks the sample is recognised as its connector (the part of <name> before any "-").
+ * Converts test/data/<name>.* the way the website does and returns the rows YNAB will import,
+ * as [date, payee, memo, amount], the amount negative for an outflow. Also checks the sample is
+ * recognised as its connector (the part of <name> before any "-").
  */
 export function ynabRows(name: string): string[][] {
   const id = name.split("-")[0] as ConnectorId;
   const text = sample(name);
   assert.equal(detect(text), id, `test/data/${name} is not recognised as ${id}`);
   const [header, ...rows] = parseCsv(toYnabCsv(convert(text, id)));
-  assert.deepEqual(header, ["Date", "Payee", "Memo", "Amount"]);
-  return rows;
+  assert.deepEqual(header, ["Date", "Payee", "Memo", "Outflow", "Inflow"]);
+  return rows.map(([date = "", payee = "", memo = "", outflow = "", inflow = "", ...rest]) => {
+    assert.ok(!outflow !== !inflow, "exactly one of Outflow and Inflow is filled");
+    return [date, payee, memo, outflow ? `-${outflow}` : inflow, ...rest];
+  });
 }

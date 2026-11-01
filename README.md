@@ -9,7 +9,7 @@ Connectors turn bank and credit card exports into files you can import into [YNA
 | Name | Country | File |
 | --- | --- | --- |
 | Neon | Switzerland | CSV account statement |
-| PostFinance | Switzerland | CSV of an account's transactions (e-finance) |
+| PostFinance | Switzerland | CSV of an account's transactions (e-finance, in English, German, French or Italian) |
 | Revolut | International | CSV account statement |
 | Swisscard | Switzerland | CSV of credit card transactions |
 | Viseca | Switzerland | CSV of credit card transactions |

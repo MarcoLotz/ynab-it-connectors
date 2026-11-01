@@ -147,12 +147,13 @@ CI checks that the files exist and are registered, that every sample is recognis
 
 Versions follow semver: a new connector is a minor release, a fix a patch.
 
-1. Bump the version in a pull request: `npm version minor --no-git-tag-version` updates `package.json` and `package-lock.json`.
-2. Once it's merged, tag `main`:
+Pull requests don't change the version. To release, bump and tag `main` in one step:
 
-   ```sh
-   git switch main && git pull
-   git tag v0.2.0 && git push origin v0.2.0
-   ```
+```sh
+git switch main && git pull
+npm version minor && git push --follow-tags
+```
+
+`npm version` updates `package.json` and `package-lock.json`, commits them and creates the `v*` tag; use `patch` for a release of fixes only.
 
 The [release workflow](.github/workflows/release.yml) runs the checks, makes sure the tag matches `package.json` and creates the GitHub release. ynabit.com uses it once its dependency is bumped to the new tag.
