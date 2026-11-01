@@ -1,4 +1,4 @@
-/** PostFinance: e-finance account transactions CSV export, in any of the four UI languages. */
+/** PostFinance: e-finance account transactions CSV export */
 
 import { type Connector, csv, parseAmount, parseDate } from "../core.ts";
 
