@@ -1,0 +1,6 @@
+IBAN;Booked At;Text;Credit/Debit Amount;Balance;Valuta Date
+CH00 0000 0000 0000 0000 0;2026-09-25 00:00:00.0;Gutschrift Jane Muster, Musterweg 2, 8000 Zuerich;350;1350;2026-09-25 00:00:00.0
+CH00 0000 0000 0000 0000 0;2026-09-29 00:00:00.0;Zahlung QR-Rechnung Example Versicherung AG, Postfach, 3000 Bern;-312.4;1037.6;2026-09-29 00:00:00.0
+;;Mitteilungen: Police 12345 Praemie Oktober 2026;;;
+CH00 0000 0000 0000 0000 0;2026-09-30 00:00:00.0;Einkauf SBB CFF FFS Bern 29.09.2026, 08:15, Karten-Nr. 123456xxxxxx1234;-4.2;1033.4;2026-09-29 00:00:00.0
+CH00 0000 0000 0000 0000 0;2026-09-30 00:00:00.0;Zins;0;1033.4;2026-09-30 00:00:00.0

@@ -1,0 +1,19 @@
+﻿Kontonummer:;0000 00000000.0X;;;;;;;;;;;;;
+IBAN:;CH00 0000 0000 0000 0000 0;;;;;;;;;;;;;
+Von:;2026-09-01;;;;;;;;;;;;;
+Bis:;2026-09-30;;;;;;;;;;;;;
+Anfangssaldo:;6496.00;;;;;;;;;;;;;
+Schlusssaldo:;6352.10;;;;;;;;;;;;;
+Bewertet in:;CHF;;;;;;;;;;;;;
+Anzahl Transaktionen in diesem Zeitraum:;7;;;;;;;;;;;;;
+
+Abschlussdatum;Abschlusszeit;Buchungsdatum;Valutadatum;Währung;Belastung;Gutschrift;Einzelbetrag;Saldo;Transaktions-Nr.;Beschreibung1;Beschreibung2;Beschreibung3;Fussnoten;
+2026-09-30;08:15:33;;2026-09-30;CHF;-4.20;;;6352.10;9999273BN0815331;"SBB CFF FFS,3000 Bern";"12345678-0 07/28, Zahlung Debitkarte";"Transaktions-Nr. 9999273BN0815331";;
+2026-09-30;;2026-09-30;2026-09-30;CHF;-2.00;;;6356.30;9930273TO0000001;"Saldo Dienstleistungspreise";"Saldo Dienstleistungspreise";"Transaktions-Nr. 9930273TO0000001";(*e) Befreit aufgrund Freigrenze für Transaktionen;
+2026-09-28;19:02:11;2026-09-29;2026-09-28;CHF;-23.70;;;6358.30;9930271BN1902114;"BOOKING.COM,AMSTERDAM";"12345678-0 07/28, Zahlung Debitkarte";"Originalbetrag: -25.00 EUR, Umrechnungskurs: 0.948, Transaktions-Nr. 9930271BN1902114";;
+2026-09-27;12:41:07;2026-09-29;2026-09-27;CHF;-42.35;;;6382.00;9930270BN1241076;"Coop-1234 Zürich HB,8001 Zürich";"12345678-0 07/28, Zahlung Debitkarte";"Transaktions-Nr. 9930270BN1241076";;
+2026-09-26;10:12:45;2026-09-26;2026-09-26;CHF;-200.00;;;6424.35;9930269BN1012453;"UBS Zürich Paradeplatz,8001 Zürich";"12345678-0 07/28, Bezug Bancomat";"Transaktions-Nr. 9930269BN1012453";;
+2026-09-25;;2026-09-25;2026-09-25;CHF;;5200.00;;6624.35;9930268TI0000002;"Example AG,Bahnhofstrasse 10, 8001 Zürich";"Gutschrift";"Mitteilungen: Lohn September 2026, Konto-Nr. IBAN: CH00 0000 0000 0000 0000 0, Transaktions-Nr. 9930268TI0000002";;
+2026-09-01;;2026-09-01;2026-09-01;CHF;-5071.65;;;1424.35;9930244TO0000003;"Immo Example AG,Musterstrasse 1, 8000 Zürich";"e-banking-Sammelauftrag";"Transaktions-Nr. 9930244TO0000003";;
+;;;;CHF;;;1850.00;;9930244TO0000003;"Immo Example AG,Musterstrasse 1, 8000 Zürich";;"Mitteilungen: Miete September 2026, Konto-Nr. IBAN: CH00 0000 0000 0000 0000 0";;
+;;;;CHF;;;3221.65;;9930244TO0000003;"Steueramt Example,Postfach, 8000 Zürich";;"Referenz-Nr. QRR: 00 00000 00000 00000 00000 00000, Konto-Nr. IBAN: CH00 0000 0000 0000 0000 0";;
