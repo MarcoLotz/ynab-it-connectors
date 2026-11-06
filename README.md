@@ -6,17 +6,22 @@ Connectors turn bank and credit card exports into files you can import into [YNA
 
 ## Supported banks and formats
 
-| Name                | Country                            | File                                                                                |
-| ------------------- | ---------------------------------- | ----------------------------------------------------------------------------------- |
-| Neon                | Switzerland                        | CSV account statement                                                               |
-| PostFinance         | Switzerland                        | CSV of an account's transactions (e-finance, in English, German, French or Italian) |
-| Revolut             | International                      | CSV account statement                                                               |
-| Swisscard           | Switzerland                        | CSV of credit card transactions                                                     |
-| Viseca              | Switzerland                        | CSV of credit card transactions                                                     |
-| Wise                | International                      | CSV transaction history                                                             |
-| ZKB                 | Switzerland                        | CSV bank statement with details                                                     |
-| camt.053 / camt.054 | International (ISO 20022 standard) | XML statement or notification; camt.052 works too                                   |
-| MT940               | International (SWIFT standard)     | Statement ending in `.sta`, `.mt940` or `.txt`                                      |
+| Name                | Country                            | File                                                                                         |
+| ------------------- | ---------------------------------- | -------------------------------------------------------------------------------------------- |
+| Bank Cler           | Switzerland                        | CSV of an account's transactions (e-banking, in German, French or Italian)                   |
+| Migros Bank         | Switzerland                        | CSV account statement (e-banking, in German, French or Italian); its credit cards use Viseca |
+| Neon                | Switzerland                        | CSV account statement                                                                        |
+| PostFinance         | Switzerland                        | CSV of an account's transactions (e-finance, in English, German, French or Italian)          |
+| Raiffeisen          | Switzerland                        | CSV of an account's transactions (e-banking)                                                 |
+| Revolut             | International                      | CSV account statement                                                                        |
+| Swisscard           | Switzerland                        | CSV of credit card transactions                                                              |
+| UBS                 | Switzerland                        | CSV of an account's transactions (e-banking, in English, German, French or Italian)          |
+| Viseca              | Switzerland                        | CSV of credit card transactions                                                              |
+| Wise                | International                      | CSV transaction history                                                                      |
+| Yuh                 | Switzerland                        | CSV of the app's activities (CHF amounts only)                                               |
+| ZKB                 | Switzerland                        | CSV bank statement with details                                                              |
+| camt.053 / camt.054 | International (ISO 20022 standard) | XML statement or notification; camt.052 works too                                            |
+| MT940               | International (SWIFT standard)     | Statement ending in `.sta`, `.mt940` or `.txt`                                               |
 
 Bank missing? Many banks, in Europe especially, export camt.053 or MT940, which already work.
 

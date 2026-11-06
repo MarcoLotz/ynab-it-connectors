@@ -1,13 +1,18 @@
 /** ynabit connectors: turn bank and credit card exports into YNAB import files. */
 
 import camt from "./connectors/camt.ts";
+import cler from "./connectors/cler.ts";
+import migrosbank from "./connectors/migrosbank.ts";
 import mt940 from "./connectors/mt940.ts";
 import neon from "./connectors/neon.ts";
 import postfinance from "./connectors/postfinance.ts";
+import raiffeisen from "./connectors/raiffeisen.ts";
 import revolut from "./connectors/revolut.ts";
 import swisscard from "./connectors/swisscard.ts";
+import ubs from "./connectors/ubs.ts";
 import viseca from "./connectors/viseca.ts";
 import wise from "./connectors/wise.ts";
+import yuh from "./connectors/yuh.ts";
 import zkb from "./connectors/zkb.ts";
 import type { Connector, Transaction } from "./core.ts";
 
@@ -16,13 +21,18 @@ export * from "./core.ts";
 /** Every connector, keyed by its id: the name of its file in src/connectors. */
 export const connectors = {
   camt,
+  cler,
+  migrosbank,
   mt940,
   neon,
   postfinance,
+  raiffeisen,
   revolut,
   swisscard,
+  ubs,
   viseca,
   wise,
+  yuh,
   zkb,
 } as const satisfies Record<string, Connector>;
 
