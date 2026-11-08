@@ -1,0 +1,19 @@
+﻿"Kontoauszug von:";"2026-09-01"
+"Kontoauszug bis:";"2026-09-30"
+;
+"Vertrag:";"00000000"
+"Kontonummer / IBAN:";"000.000.00 / CH00 0000 0000 0000 0000 0"
+"Bezeichnung:";"Privatkonto"
+"Saldo:";"4627.60"
+;
+"Jane Muster"
+"Musterstrasse 1"
+"8000 Zürich"
+;
+;
+"Datum";"Buchungstext";"Mitteilung";"Referenznummer";"Betrag";"Saldo";"Valuta"
+"01.09.2026";"Immo Example AG, Musterstrasse 1, 8000 Zürich, CH0000000000000000000";"Miete September 2026";;"-1850.00";"1150.00";"01.09.2026"
+"25.09.2026";"Example AG, Bahnhofstrasse 10, 8001 Zürich";"Lohn September 2026";;"5200.00";"6350.00";"25.09.2026"
+"28.09.2026";"Example Versicherung AG, Postfach, 3000 Bern";"";"00 00000 00000 00000 00000 00000";"-312.40";"6037.60";"28.09.2026"
+"29.09.2026";"Jane Muster, Musterstrasse 1, 8000 Zürich, CH0000000000000000000";"Sparen";;"-1407.00";"4630.60";"29.09.2026"
+"30.09.2026";"Kontoführungsgebühr";"";;"-3.00";"4627.60";"30.09.2026"

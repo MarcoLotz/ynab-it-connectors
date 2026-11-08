@@ -1,0 +1,7 @@
+IBAN;Booked At;Text;Details;Credit/Debit Amount;Balance;Valuta Date
+CH00 0000 0000 0000 0000 0;2026-09-01 00:00:00.0;Dauerauftrag Immo Example AG;Musterstrasse 1 8000 Zürich CH Mitteilungen: Miete September 2026 CHF 1850.00 -;-1850;4150;2026-09-01 00:00:00.0
+CH00 0000 0000 0000 0000 0;2026-09-03 00:00:00.0;Einkauf Coop Zürich HB 02.09.2026, 18:46, Karten-Nr. 123456xxxxxx1234;;-23.45;4126.55;2026-09-02 00:00:00.0
+CH00 0000 0000 0000 0000 0;2026-09-10 00:00:00.0;Gutschrift Example AG, Bahnhofstrasse 10, 8001 Zürich;Mitteilungen: Lohn September 2026 CHF 5200.00 -;5200;9326.55;2026-09-10 00:00:00.0
+CH00 0000 0000 0000 0000 0;2026-09-18 00:00:00.0;Bargeldbezug Raiffeisen Zürich 18.09.2026, 10:12, Karten-Nr. 123456xxxxxx1234;;-200;9126.55;2026-09-18 00:00:00.0
+CH00 0000 0000 0000 0000 0;2026-09-22 00:00:00.0;Einkauf Migros Oerlikon 21.09.2026, 17:31, Karten-Nr. 123456xxxxxx1234;;-40.7;9085.85;2026-09-21 00:00:00.0
+CH00 0000 0000 0000 0000 0;2026-09-30 00:00:00.0;Kontoführungsgebühr;;-2;9083.85;2026-09-30 00:00:00.0

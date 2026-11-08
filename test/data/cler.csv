@@ -1,0 +1,16 @@
+Buchungsdatum;Auftragsart;Text;Belastungsbetrag (CHF);Gutschriftsbetrag (CHF);Saldo (CHF)
+30.09.2026;Kontoführungsgebühr;Kontoführungsgebühr;2.00;;4625.60
+29.09.2026;QR-Rechnung;"Example Versicherung AG
+Postfach
+3000 Bern
+CH00 0000 0000 0000 0000 0
+Pers. Ref.: Police 12345";312.40;;4627.60
+26.09.2026;Sammelbelastung;Sammelbelastung vom 26.09.2026;617.40;;4940.00
+25.09.2026;Gutschrift;"Example AG
+Bahnhofstrasse 10
+8001 Zürich
+Lohn September 2026";;5200.00;5557.40
+01.09.2026;Zahlung (Dauerauftrag);"Immo Example AG
+Musterstrasse 1
+8000 Zürich
+Miete September 2026";1850.00;;357.40
